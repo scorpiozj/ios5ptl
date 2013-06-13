@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DED74DF61768628500796425 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED74DF51768628500796425 /* UIKit.framework */; };
+		DED74DF81768628500796425 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED74DF71768628500796425 /* Foundation.framework */; };
+		DED74DFA1768628500796425 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DED74DF91768628500796425 /* CoreGraphics.framework */; };
+		DED74E001768628500796425 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DED74DFE1768628500796425 /* InfoPlist.strings */; };
+		DED74E021768628500796425 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DED74E011768628500796425 /* main.m */; };
+		DED74E061768628500796425 /* ZJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DED74E051768628500796425 /* ZJAppDelegate.m */; };
+		DED74E091768628500796425 /* ZJMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DED74E081768628500796425 /* ZJMasterViewController.m */; };
+		DED74E0C1768628600796425 /* ZJDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DED74E0B1768628600796425 /* ZJDetailViewController.m */; };
+		DED74E0F1768628600796425 /* ZJMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DED74E0D1768628600796425 /* ZJMasterViewController.xib */; };
+		DED74E121768628600796425 /* ZJDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DED74E101768628600796425 /* ZJDetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DED74DF11768628500796425 /* TableViewDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewDrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DED74DF51768628500796425 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DED74DF71768628500796425 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DED74DF91768628500796425 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DED74DFD1768628500796425 /* TableViewDrawer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewDrawer-Info.plist"; sourceTree = "<group>"; };
+		DED74DFF1768628500796425 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DED74E011768628500796425 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DED74E031768628500796425 /* TableViewDrawer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableViewDrawer-Prefix.pch"; sourceTree = "<group>"; };
+		DED74E041768628500796425 /* ZJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJAppDelegate.h; sourceTree = "<group>"; };
+		DED74E051768628500796425 /* ZJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJAppDelegate.m; sourceTree = "<group>"; };
+		DED74E071768628500796425 /* ZJMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJMasterViewController.h; sourceTree = "<group>"; };
+		DED74E081768628500796425 /* ZJMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJMasterViewController.m; sourceTree = "<group>"; };
+		DED74E0A1768628500796425 /* ZJDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJDetailViewController.h; sourceTree = "<group>"; };
+		DED74E0B1768628600796425 /* ZJDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJDetailViewController.m; sourceTree = "<group>"; };
+		DED74E0E1768628600796425 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZJMasterViewController.xib; sourceTree = "<group>"; };
+		DED74E111768628600796425 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZJDetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DED74DEE1768628500796425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED74DF61768628500796425 /* UIKit.framework in Frameworks */,
+				DED74DF81768628500796425 /* Foundation.framework in Frameworks */,
+				DED74DFA1768628500796425 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DED74DE61768628500796425 = {
+			isa = PBXGroup;
+			children = (
+				DED74DFB1768628500796425 /* TableViewDrawer */,
+				DED74DF41768628500796425 /* Frameworks */,
+				DED74DF21768628500796425 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DED74DF21768628500796425 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DED74DF11768628500796425 /* TableViewDrawer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DED74DF41768628500796425 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DED74DF51768628500796425 /* UIKit.framework */,
+				DED74DF71768628500796425 /* Foundation.framework */,
+				DED74DF91768628500796425 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DED74DFB1768628500796425 /* TableViewDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				DED74E041768628500796425 /* ZJAppDelegate.h */,
+				DED74E051768628500796425 /* ZJAppDelegate.m */,
+				DED74E071768628500796425 /* ZJMasterViewController.h */,
+				DED74E081768628500796425 /* ZJMasterViewController.m */,
+				DED74E0A1768628500796425 /* ZJDetailViewController.h */,
+				DED74E0B1768628600796425 /* ZJDetailViewController.m */,
+				DED74E0D1768628600796425 /* ZJMasterViewController.xib */,
+				DED74E101768628600796425 /* ZJDetailViewController.xib */,
+				DED74DFC1768628500796425 /* Supporting Files */,
+			);
+			path = TableViewDrawer;
+			sourceTree = "<group>";
+		};
+		DED74DFC1768628500796425 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DED74DFD1768628500796425 /* TableViewDrawer-Info.plist */,
+				DED74DFE1768628500796425 /* InfoPlist.strings */,
+				DED74E011768628500796425 /* main.m */,
+				DED74E031768628500796425 /* TableViewDrawer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DED74DF01768628500796425 /* TableViewDrawer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DED74E151768628600796425 /* Build configuration list for PBXNativeTarget "TableViewDrawer" */;
+			buildPhases = (
+				DED74DED1768628500796425 /* Sources */,
+				DED74DEE1768628500796425 /* Frameworks */,
+				DED74DEF1768628500796425 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableViewDrawer;
+			productName = TableViewDrawer;
+			productReference = DED74DF11768628500796425 /* TableViewDrawer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DED74DE81768628500796425 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DED74DEB1768628500796425 /* Build configuration list for PBXProject "TableViewDrawer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DED74DE61768628500796425;
+			productRefGroup = DED74DF21768628500796425 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DED74DF01768628500796425 /* TableViewDrawer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DED74DEF1768628500796425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED74E001768628500796425 /* InfoPlist.strings in Resources */,
+				DED74E0F1768628600796425 /* ZJMasterViewController.xib in Resources */,
+				DED74E121768628600796425 /* ZJDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DED74DED1768628500796425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED74E021768628500796425 /* main.m in Sources */,
+				DED74E061768628500796425 /* ZJAppDelegate.m in Sources */,
+				DED74E091768628500796425 /* ZJMasterViewController.m in Sources */,
+				DED74E0C1768628600796425 /* ZJDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DED74DFE1768628500796425 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DED74DFF1768628500796425 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DED74E0D1768628600796425 /* ZJMasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DED74E0E1768628600796425 /* en */,
+			);
+			name = ZJMasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		DED74E101768628600796425 /* ZJDetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DED74E111768628600796425 /* en */,
+			);
+			name = ZJDetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DED74E131768628600796425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DED74E141768628600796425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DED74E161768628600796425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewDrawer/TableViewDrawer-Prefix.pch";
+				INFOPLIST_FILE = "TableViewDrawer/TableViewDrawer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DED74E171768628600796425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableViewDrawer/TableViewDrawer-Prefix.pch";
+				INFOPLIST_FILE = "TableViewDrawer/TableViewDrawer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DED74DEB1768628500796425 /* Build configuration list for PBXProject "TableViewDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED74E131768628600796425 /* Debug */,
+				DED74E141768628600796425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DED74E151768628600796425 /* Build configuration list for PBXNativeTarget "TableViewDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DED74E161768628600796425 /* Debug */,
+				DED74E171768628600796425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DED74DE81768628500796425 /* Project object */;
+}
