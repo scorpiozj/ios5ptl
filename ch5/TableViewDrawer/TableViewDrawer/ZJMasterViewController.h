@@ -12,7 +12,10 @@
 
 @interface ZJMasterViewController : UITableViewController
 
-
 @property (strong, nonatomic) IBOutlet UITableViewCell *drawerCell;
+
+- (IBAction)btn1Action:(id)sender;
+- (IBAction)btn2Action:(id)sender;
+- (IBAction)btn3Action:(id)sender;
 
 @end

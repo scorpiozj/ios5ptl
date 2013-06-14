@@ -209,5 +209,33 @@
     [tableView insertRowsAtIndexPaths:insertArray withRowAnimation:UITableViewRowAnimationAutomatic];
 
 }
+- (void)popAlertWithTitle:(NSString *)title andMsg:(NSString *)message
+{
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:title message:message delegate:self cancelButtonTitle:@"OK" otherButtonTitles: nil];
+    [alert show];
 
+}
+
+- (IBAction)btn1Action:(id)sender {
+    NSString *msg = [NSString stringWithFormat:@"cell %d clicked!",self.selectedIndexPath.row + 1];
+    NSString *selector = NSStringFromSelector(_cmd);
+    [self popAlertWithTitle:selector andMsg:msg];
+}
+
+- (IBAction)btn2Action:(id)sender {
+    UIButton *btn = (UIButton *)sender;
+    UITableViewCell *cell = (UITableViewCell *)btn.superview.superview;
+    NSIndexPath *indexPath = [self.tableView indexPathForCell:cell];
+    
+    
+    NSString *msg = [NSString stringWithFormat:@"cell %d clicked!",indexPath.row -1 + 1];
+    NSString *selector = NSStringFromSelector(_cmd);
+    [self popAlertWithTitle:selector andMsg:msg];
+}
+
+- (IBAction)btn3Action:(id)sender {
+    NSString *msg = [NSString stringWithFormat:@"cell %d clicked!",self.selectedIndexPath.row + 1];
+    NSString *selector = NSStringFromSelector(_cmd);
+    [self popAlertWithTitle:selector andMsg:msg];
+}
 @end
