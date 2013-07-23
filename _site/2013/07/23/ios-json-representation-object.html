@@ -37,7 +37,7 @@ var WRInitTime=(new Date()).getTime();
 <p class="meta">22 Nov 2011 </p>
 
 
-<p>It does <em>not</em> talk about either how to parsering the json into objec or the speed of the parser kit here.
+<p>It does <em>not</em> talk about either how to parsering the json into object or comparing the speed of the parser kit here.
 I want to cover something about the JSON Object Model. In mobile apps, JSON is used popular. Before reading ios ptl, I always create the property in advance and sythesize them.
 when comes comlicate json structure, as you can imagine,there will be such a lot of synthesize. For example:</p>
 
@@ -46,7 +46,15 @@ when comes comlicate json structure, as you can imagine,there will be such a lot
 @property (nonatomic, strong) NSNumber *no;
 - (void)setContentWith:(NSDictionary *)dic;
 @end
+
+@implementation ZJNodeObj
+@synthesize filedate,filefolderflag,filename,filepath,filesize,opedate,operation,opesrc,opeuser;
+@synthesize no;
+@end
 </code></pre>
+
+<p>Thanks to the evolution of xcode, we do not need synthesize the property manually as xcode does automatically for us. However, apparently the code is not so "clean".
+Later</p>
 
 <p>When Chris and I first started working on GitHub in late 2007, we split the work into two parts. Chris worked on the Rails app and I worked on Grit, the first ever Git bindings for Ruby. After six months of development, Grit had become complete enough to power GitHub during our public launch of the site and we were faced with an interesting question:</p>
 
@@ -129,6 +137,10 @@ when comes comlicate json structure, as you can imagine,there will be such a lot
   </ul>
 </div>
   
+  <div class="footer">
+    <p class="copyright">Iosptl maintained by <a href="https://github.com/scorpiozj">scorpiozj</a></p>
+    <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>  
+  </div>
   <!--<div class="footer">
     <div class="contact">
       <p>

@@ -4,7 +4,7 @@
  <title>Tom Preston-Werner</title>
  <link href="http://tom.preston-werner.com/atom.xml" rel="self"/>
  <link href="http://tom.preston-werner.com/"/>
- <updated>2013-07-23T16:40:39+08:00</updated>
+ <updated>2013-07-23T17:09:50+08:00</updated>
  <id>http://tom.preston-werner.com/</id>
  <author>
    <name>Tom Preston-Werner</name>
@@ -22,7 +22,7 @@
 &lt;p class=&quot;meta&quot;&gt;22 Nov 2011 &lt;/p&gt;
 
 
-&lt;p&gt;It does &lt;em&gt;not&lt;/em&gt; talk about either how to parsering the json into objec or the speed of the parser kit here.
+&lt;p&gt;It does &lt;em&gt;not&lt;/em&gt; talk about either how to parsering the json into object or comparing the speed of the parser kit here.
 I want to cover something about the JSON Object Model. In mobile apps, JSON is used popular. Before reading ios ptl, I always create the property in advance and sythesize them.
 when comes comlicate json structure, as you can imagine,there will be such a lot of synthesize. For example:&lt;/p&gt;
 
@@ -31,7 +31,15 @@ when comes comlicate json structure, as you can imagine,there will be such a lot
 @property (nonatomic, strong) NSNumber *no;
 - (void)setContentWith:(NSDictionary *)dic;
 @end
+
+@implementation ZJNodeObj
+@synthesize filedate,filefolderflag,filename,filepath,filesize,opedate,operation,opesrc,opeuser;
+@synthesize no;
+@end
 &lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Thanks to the evolution of xcode, we do not need synthesize the property manually as xcode does automatically for us. However, apparently the code is not so &quot;clean&quot;.
+Later&lt;/p&gt;
 
 &lt;p&gt;When Chris and I first started working on GitHub in late 2007, we split the work into two parts. Chris worked on the Rails app and I worked on Grit, the first ever Git bindings for Ruby. After six months of development, Grit had become complete enough to power GitHub during our public launch of the site and we were faced with an interesting question:&lt;/p&gt;
 
