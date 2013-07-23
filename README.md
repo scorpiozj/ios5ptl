@@ -1,7 +1,7 @@
-ios5ptl
+ios ptl
 =======
 
-note of ios5 push the limit
+note of ios push the limit
 
 It includes the projects following the book and my notes.
 
