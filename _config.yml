@@ -5,4 +5,4 @@ pygments: true
 safe: true
 lsi: false
 pygments: true
-baseurl: "http://scorpiozj.github.io/iosptl"
+baseurl: "/iosptl"
