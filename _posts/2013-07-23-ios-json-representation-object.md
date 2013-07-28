@@ -48,7 +48,7 @@ As a result, the nested json object can also be hanled in this way.
         //blah blah...
     }
 
-Let take a look how it does in PTL:
+Let's take a look at how it does in PTL:
     //Base class
     -(id) initWithDictionary:(NSMutableDictionary*) jsonObject
     {
@@ -66,8 +66,7 @@ Let take a look how it does in PTL:
         else if([key isEqualToString:@"description"])
             self.itemDescription = value;
         else [super setValue:value forUndefinedKey:key];
-}
-
+    }
     -(void) setValue:(id)value forKey:(NSString *)key
     {
         if([key isEqualToString:@"reviews"])
