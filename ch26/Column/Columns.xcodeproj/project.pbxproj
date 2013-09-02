@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5238247417D4210500F19E7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5238247317D4210500F19E7D /* UIKit.framework */; };
+		5238247617D4210500F19E7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5238247517D4210500F19E7D /* Foundation.framework */; };
+		5238247817D4210500F19E7D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5238247717D4210500F19E7D /* CoreGraphics.framework */; };
+		5238247E17D4210500F19E7D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5238247C17D4210500F19E7D /* InfoPlist.strings */; };
+		5238248017D4210500F19E7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5238247F17D4210500F19E7D /* main.m */; };
+		5238248417D4210500F19E7D /* ZJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5238248317D4210500F19E7D /* ZJAppDelegate.m */; };
+		5238248617D4210500F19E7D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5238248517D4210500F19E7D /* Default.png */; };
+		5238248817D4210500F19E7D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5238248717D4210500F19E7D /* Default@2x.png */; };
+		5238248A17D4210500F19E7D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5238248917D4210500F19E7D /* Default-568h@2x.png */; };
+		5238248D17D4210500F19E7D /* ZJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5238248C17D4210500F19E7D /* ZJViewController.m */; };
+		5238249017D4210500F19E7D /* ZJViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5238248E17D4210500F19E7D /* ZJViewController_iPhone.xib */; };
+		5238249317D4210500F19E7D /* ZJViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5238249117D4210500F19E7D /* ZJViewController_iPad.xib */; };
+		5238249B17D4219800F19E7D /* ZJColumnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5238249A17D4219800F19E7D /* ZJColumnView.m */; };
+		5238249D17D4238F00F19E7D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5238249C17D4238F00F19E7D /* CoreText.framework */; };
+		5238249F17D423F800F19E7D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5238249E17D423F800F19E7D /* QuartzCore.framework */; };
+		523824A217D4250E00F19E7D /* ZJRealColumnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 523824A117D4250E00F19E7D /* ZJRealColumnView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5238247017D4210500F19E7D /* Columns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Columns.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5238247317D4210500F19E7D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5238247517D4210500F19E7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5238247717D4210500F19E7D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5238247B17D4210500F19E7D /* Columns-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Columns-Info.plist"; sourceTree = "<group>"; };
+		5238247D17D4210500F19E7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5238247F17D4210500F19E7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5238248117D4210500F19E7D /* Columns-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Columns-Prefix.pch"; sourceTree = "<group>"; };
+		5238248217D4210500F19E7D /* ZJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJAppDelegate.h; sourceTree = "<group>"; };
+		5238248317D4210500F19E7D /* ZJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJAppDelegate.m; sourceTree = "<group>"; };
+		5238248517D4210500F19E7D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5238248717D4210500F19E7D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5238248917D4210500F19E7D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5238248B17D4210500F19E7D /* ZJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJViewController.h; sourceTree = "<group>"; };
+		5238248C17D4210500F19E7D /* ZJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJViewController.m; sourceTree = "<group>"; };
+		5238248F17D4210500F19E7D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZJViewController_iPhone.xib; sourceTree = "<group>"; };
+		5238249217D4210500F19E7D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZJViewController_iPad.xib; sourceTree = "<group>"; };
+		5238249917D4219800F19E7D /* ZJColumnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJColumnView.h; sourceTree = "<group>"; };
+		5238249A17D4219800F19E7D /* ZJColumnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJColumnView.m; sourceTree = "<group>"; };
+		5238249C17D4238F00F19E7D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		5238249E17D423F800F19E7D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		523824A017D4250E00F19E7D /* ZJRealColumnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJRealColumnView.h; sourceTree = "<group>"; };
+		523824A117D4250E00F19E7D /* ZJRealColumnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJRealColumnView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5238246D17D4210500F19E7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5238249F17D423F800F19E7D /* QuartzCore.framework in Frameworks */,
+				5238249D17D4238F00F19E7D /* CoreText.framework in Frameworks */,
+				5238247417D4210500F19E7D /* UIKit.framework in Frameworks */,
+				5238247617D4210500F19E7D /* Foundation.framework in Frameworks */,
+				5238247817D4210500F19E7D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5238246717D4210500F19E7D = {
+			isa = PBXGroup;
+			children = (
+				5238249E17D423F800F19E7D /* QuartzCore.framework */,
+				5238247917D4210500F19E7D /* Columns */,
+				5238247217D4210500F19E7D /* Frameworks */,
+				5238247117D4210500F19E7D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5238247117D4210500F19E7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5238247017D4210500F19E7D /* Columns.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5238247217D4210500F19E7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5238249C17D4238F00F19E7D /* CoreText.framework */,
+				5238247317D4210500F19E7D /* UIKit.framework */,
+				5238247517D4210500F19E7D /* Foundation.framework */,
+				5238247717D4210500F19E7D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5238247917D4210500F19E7D /* Columns */ = {
+			isa = PBXGroup;
+			children = (
+				5238248217D4210500F19E7D /* ZJAppDelegate.h */,
+				5238248317D4210500F19E7D /* ZJAppDelegate.m */,
+				5238248B17D4210500F19E7D /* ZJViewController.h */,
+				5238248C17D4210500F19E7D /* ZJViewController.m */,
+				5238248E17D4210500F19E7D /* ZJViewController_iPhone.xib */,
+				5238249117D4210500F19E7D /* ZJViewController_iPad.xib */,
+				5238247A17D4210500F19E7D /* Supporting Files */,
+				5238249917D4219800F19E7D /* ZJColumnView.h */,
+				5238249A17D4219800F19E7D /* ZJColumnView.m */,
+				523824A017D4250E00F19E7D /* ZJRealColumnView.h */,
+				523824A117D4250E00F19E7D /* ZJRealColumnView.m */,
+			);
+			path = Columns;
+			sourceTree = "<group>";
+		};
+		5238247A17D4210500F19E7D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5238247B17D4210500F19E7D /* Columns-Info.plist */,
+				5238247C17D4210500F19E7D /* InfoPlist.strings */,
+				5238247F17D4210500F19E7D /* main.m */,
+				5238248117D4210500F19E7D /* Columns-Prefix.pch */,
+				5238248517D4210500F19E7D /* Default.png */,
+				5238248717D4210500F19E7D /* Default@2x.png */,
+				5238248917D4210500F19E7D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5238246F17D4210500F19E7D /* Columns */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5238249617D4210500F19E7D /* Build configuration list for PBXNativeTarget "Columns" */;
+			buildPhases = (
+				5238246C17D4210500F19E7D /* Sources */,
+				5238246D17D4210500F19E7D /* Frameworks */,
+				5238246E17D4210500F19E7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Columns;
+			productName = Columns;
+			productReference = 5238247017D4210500F19E7D /* Columns.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5238246817D4210500F19E7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZJ;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Zhu J";
+			};
+			buildConfigurationList = 5238246B17D4210500F19E7D /* Build configuration list for PBXProject "Columns" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5238246717D4210500F19E7D;
+			productRefGroup = 5238247117D4210500F19E7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5238246F17D4210500F19E7D /* Columns */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5238246E17D4210500F19E7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5238247E17D4210500F19E7D /* InfoPlist.strings in Resources */,
+				5238248617D4210500F19E7D /* Default.png in Resources */,
+				5238248817D4210500F19E7D /* Default@2x.png in Resources */,
+				5238248A17D4210500F19E7D /* Default-568h@2x.png in Resources */,
+				5238249017D4210500F19E7D /* ZJViewController_iPhone.xib in Resources */,
+				5238249317D4210500F19E7D /* ZJViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5238246C17D4210500F19E7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5238248017D4210500F19E7D /* main.m in Sources */,
+				5238248417D4210500F19E7D /* ZJAppDelegate.m in Sources */,
+				5238248D17D4210500F19E7D /* ZJViewController.m in Sources */,
+				5238249B17D4219800F19E7D /* ZJColumnView.m in Sources */,
+				523824A217D4250E00F19E7D /* ZJRealColumnView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5238247C17D4210500F19E7D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5238247D17D4210500F19E7D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5238248E17D4210500F19E7D /* ZJViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5238248F17D4210500F19E7D /* en */,
+			);
+			name = ZJViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		5238249117D4210500F19E7D /* ZJViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5238249217D4210500F19E7D /* en */,
+			);
+			name = ZJViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5238249417D4210500F19E7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5238249517D4210500F19E7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5238249717D4210500F19E7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Columns/Columns-Prefix.pch";
+				INFOPLIST_FILE = "Columns/Columns-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5238249817D4210500F19E7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Columns/Columns-Prefix.pch";
+				INFOPLIST_FILE = "Columns/Columns-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5238246B17D4210500F19E7D /* Build configuration list for PBXProject "Columns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5238249417D4210500F19E7D /* Debug */,
+				5238249517D4210500F19E7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5238249617D4210500F19E7D /* Build configuration list for PBXNativeTarget "Columns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5238249717D4210500F19E7D /* Debug */,
+				5238249817D4210500F19E7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5238246817D4210500F19E7D /* Project object */;
+}
